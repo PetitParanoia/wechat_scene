@@ -1,0 +1,442 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300%;
+}
+
+.page {
+	position: relative;
+	width: 100%;
+	height: 16.67%;
+}
+
+.page1 {
+	background-color: turquoise;
+}
+
+.page2 {
+	background-color: wheat;
+}
+
+.page3 {
+	background-color: teal;
+}
+
+
+/**************page1**************/
+
+.page1 img {
+	position: absolute;
+}
+
+.page1-door {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+}
+.page1-open{
+	width:25% ;
+	height: 8%;
+	bottom: 5%;
+	right: 15%;
+	animation:open-scale 1s infinite linear;
+}
+@keyframes open-scale{
+	0%{}
+	50%{transform: scale(1.1);}
+	100%{}
+}
+.page1-text1 {
+	width: 5%;
+	height: 50%;
+	right: 5%;
+	top: 5%;
+	display: none;
+}
+
+.page1-text2 {
+	width: 5%;
+	height: 50%;
+	right: 15%;
+	top: 5%;
+	display: none;
+}
+
+.page1-text3 {
+	width: 5%;
+	height: 50%;
+	right: 25%;
+	top: 5%;
+	display: none;
+}
+
+.page1-text4 {
+	width: 5%;
+	height: 50%;
+	right: 35%;
+	top: 5%;
+	display: none;
+}
+
+.page1-bookOff {
+	height: 15%;
+	width: 15%;
+	bottom: 0px;
+	right: 0px;
+}
+
+.page1-school {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+	/*animation:school 2s infinite linear ;*/
+}
+
+@keyframes school {
+	0% {}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {}
+}
+
+
+/****************page2*******************/
+
+.page2 img {
+	position: absolute;
+}
+
+.page2-spring {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+}
+
+.page2-springWord {
+	width: 40%;
+	height: 20%;
+	left: 30%;
+	top: 5%;
+	display: none;
+}
+
+.page2-summer {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+}
+
+.page2-summerWord {
+	width: 50%;
+	height:40%;
+	top: 5%;
+	left: 25%;
+	display: none;
+	animation: summerWord 2s infinite linear;
+}
+
+@keyframes summerWord {
+	0% {}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {}
+}
+
+.page2-autumn {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+}
+
+.page2-autumnWord {
+	width: 30%;
+	height: 50%;
+	top: 5%;
+	right: 5%;
+	display: none;
+}
+
+.page2-winter {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+}
+
+.page2-winterWord {
+	width: 30%;
+	height: 50%;
+	top: 10%;
+	right: 5%;
+	display: none;
+}
+
+
+/****************page6*******************/
+
+.page3 img {
+	position: absolute;
+}
+
+.page3-read {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+}
+
+.page3-bookOn {
+	height: 15%;
+	width: 15%;
+	bottom: 0px;
+	right: 0px;
+}
+.page3-close{
+    width:25% ;
+	height: 8%;
+	bottom: 5%;
+	right: 15%;
+	/*display: none;*/
+	animation:close-scale 1s infinite linear;
+}
+@keyframes close-scale{
+	0%{}
+	50%{transform: scale(1.1);}
+	100%{}
+}
+.page3-graduate {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+}
+.page3-away{
+	width: 4%;
+	height: 4%;
+	display: none;
+}
+.page3-away1-1 {	
+	top: 6%;
+	right: 6%;	
+}
+.page3-away1-2 {
+	top: 12%;
+	right: 6%;
+}
+.page3-away1-3 {
+	top: 18%;
+	right: 6%;
+}
+.page3-away1-4 {
+	top: 24%;
+	right: 6%;
+}
+.page3-comma1 {
+	top: 30%;
+	right: 6%;
+}
+
+.page3-away1-5 {
+	top: 36%;
+	right: 6%;
+}
+
+.page3-away1-6 {
+	top: 42%;
+	right: 6%;
+}
+
+.page3-away1-7 {
+	top: 48%;
+	right: 6%;
+}
+
+.page3-away1-8 {
+	top: 54%;
+	right: 6%;
+}
+
+.page3-period1 {
+	top: 60%;
+	right: 6%;
+}
+
+.page3-away2-1 {
+	top: 12%;
+	right: 12%;
+}
+
+.page3-away2-2 {
+	top: 18%;
+	right: 12%;
+}
+
+.page3-away2-3 {
+	top: 24%;
+	right: 12%;
+}
+
+.page3-away2-4 {
+	top: 30%;
+	right: 12%;
+}
+
+.page3-away2-5 {
+	top: 36%;
+	right: 12%;
+}
+
+.page3-comma2 {
+	top: 42%;
+	right: 12%;
+}
+
+.page3-away2-6 {
+	top: 50%;
+	right: 12%;
+}
+
+.page3-away2-7 {
+	top: 56%;
+	right: 12%;
+}
+
+.page3-away2-8 {
+	top: 62%;
+	right: 12%;
+}
+
+.page3-away2-9 {
+	top: 68%;
+	right: 12%;
+}
+
+.page3-away2-10 {
+	top: 74%;
+	right: 12%;
+}
+
+.page3-comma3 {
+	top: 80%;
+	right: 12%;
+}
+
+.page3-away3-1 {
+	top: 6%;
+	right: 18%;
+}
+
+.page3-away3-2 {
+	top: 12%;
+	right: 18%;
+}
+.page3-away3-3 {
+	top: 18%;
+	right: 18%;
+}
+.page3-away3-4 {
+	top: 24%;
+	right: 18%;
+}
+.page3-away3-5 {
+	top: 30%;
+	right: 18%;
+}
+.page3-away3-6 {
+	top: 36%;
+	right: 18%;
+}
+.page3-away3-7 {
+	top: 42%;
+	right: 18%;
+}
+.page3-ellipsis {
+	top: 48%;
+	right: 18%;
+}
+
+.page3-away4-1 {
+	top: 12%;
+	right: 24%;
+}
+
+.page3-away4-2 {
+	top: 18%;
+	right: 24%;
+}
+
+.page3-away4-3 {
+	top: 24%;
+	right: 24%;
+}
+
+.page3-period2 {
+	top: 30%;
+	right: 24%;
+}
+
+.skd {
+	width: 11%;
+	height: 11%;
+	position: fixed;
+	left: 5%;
+	top: 5%;
+	/*animation: 2s skd_scale infinite linear;*/
+}
+
+@keyframes skd_scale {
+	0% {}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {}
+}
+
+.arrow-up {
+	width: 10%;
+	bottom: 5%;
+	left: 45%;
+	position: fixed;
+	animation: arrow-up 1s infinite linear;
+}
+
+@keyframes arrow-up {
+	0% {}
+	50% {
+		bottom: 8%;
+	}
+	100% {}
+}
+
+.musicBtn {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	animation: musicButton-rotate 1s infinite linear;
+}
+
+@keyframes musicButton-rotate {
+	from {}
+	to {
+		transform: rotate(360deg);
+	}
+}
